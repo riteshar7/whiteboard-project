@@ -2,16 +2,16 @@ import Board from "./components/Board";
 import Toolbar from "./components/Toolbar";
 import Toolbox from "./components/Toolbox";
 import BoardProvider from "./store/boardProvider";
-import ToolboxProvider from "./store/ToolBoxProvider";
+import ToolBoxProvider from "./store/ToolBoxProvider";
 
 function App() {
   return (
     <BoardProvider>
-      <ToolboxProvider>
+      <ToolBoxProvider>
         <Toolbar />
         <Board />
         <Toolbox />
-      </ToolboxProvider>
+      </ToolBoxProvider>
     </BoardProvider>
   );
 }
